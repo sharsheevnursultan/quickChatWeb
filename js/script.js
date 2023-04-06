@@ -8,5 +8,6 @@ function myLinkOpen() {
 };
 
 function inputValue(){
-    console.log('input value: '+input.value);
+    input.addEventListener(onchange, console.log('input value: '+input.value));
+    
 };

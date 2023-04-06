@@ -7,15 +7,24 @@
     <title>Quick Chat Tool</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- apple -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-startup-image" href="favicon/android-chrome-512x512.png"
+    <!-- apple end -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
 </head>
 
 <body>
     <div class="myGreen">
         <div class="container">
             <div class="title">
-                <h3 class="title text-center text-white">
+                <h3 class="title text-center text-white fst-italic">
                     Quick Chat Tool
                 </h3>
             </div>
@@ -27,19 +36,8 @@
 
             </div>
             <form class="footer">
-                    <input 
-                        type="tel" 
-                        id="myInput" 
-                        onchange="inputValue()"
-                        placeholder="In international format"
-                        required
-                    >
-                    <input 
-                        type="submit" 
-                        value="Chat" 
-                        id="myButton" 
-                        onclick="myLinkOpen()"
-                        >
+                <input type="tel" id="myInput" onchange="inputValue()" placeholder="In international format" required>
+                <input type="submit" value="Chat" id="myButton" onclick="myLinkOpen()">
             </form>
         </div>
     </div>
