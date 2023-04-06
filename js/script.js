@@ -6,7 +6,7 @@ function myLinkOpen() {
     open(myLink+input.value);
     console.log('btn clicked');
 };
+
 function inputValue(){
-    console.log(input.value);
-    console.log('input value');
+    console.log('input value: '+input.value);
 };
