@@ -1,20 +1,14 @@
-@font-face {
-    font-family: "SF-Pro";
-    src: url(/fonts/SF-Pro.ttf) format("ttf");
-}
-
 * {
     margin: 0;
     padding: 0;
 }
 
 html {
-    font-family: 'SF-Pro';
     font-size: 20px;
     height: 100%;
-    
 }
-body{
+
+body {
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
 }
