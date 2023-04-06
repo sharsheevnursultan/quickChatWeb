@@ -12,6 +12,8 @@ html {
     font-family: 'SF-Pro';
     font-size: 20px;
     height: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
 }
 
 .myGreen {
