@@ -1,4 +1,11 @@
+@font-face {
+    font-family: "San Francisco";
+    src: url("../fonts/sf-pro-text-11.woff") format('woff');
+    font-weight: normal; /* можно указать bold, italic и т.д. */
+    font-style: normal;
+}
 * {
+    font-family: 'San Francisco', sans-serif; /* подключение шрифта */
     margin: 0;
     padding: 0;
 }
